@@ -1,0 +1,73 @@
+\documentclass[12pt,a4paper,notitlepage]{report}
+
+\usepackage{polski}
+
+\usepackage[T1]{fontenc}
+
+\usepackage[cp1250]{inputenc}
+
+\usepackage[top=2cm, bottom=2cm, left=3cm, right=3cm]{geometry}
+
+\makeatletter
+
+\newcommand{\linia}{\rule{\linewidth}{0.4mm}}
+
+\renewcommand{\maketitle}{\begin{titlepage}
+
+    \vspace*{1cm}
+
+    \begin{center}
+
+    \textbf{Uniwersytet Warszawski}\\
+
+    Wydzia³ Fizyki\\
+
+    %% \begin{minipage}{5cm}
+
+    \vspace{1cm}
+
+    \normalsize \textbf{\textsc{\@author}} \par
+
+    Nr albumu: 307401
+
+    %% \end{minipage}
+
+    \vspace{2cm}
+    
+      \LARGE \textsc{\@title}
+
+    \vspace{1cm}
+
+    \normalsize \par
+
+    Projekt zaliczeniowy\\
+    
+    z przedmiotu\\ 
+
+    Programowanie zaawansowane FM i NI
+
+         \end{center}
+
+    \vspace*{\stretch{4}}
+
+    \begin{center}
+
+    \@date
+
+    \end{center}
+
+  \end{titlepage}%
+
+}
+
+\makeatother
+
+\author{Jerzy Grynczewski}
+
+\title{GazeSwitch}
+
+\begin{document}
+
+\maketitle
+
+\end{document}
